@@ -1,0 +1,11 @@
+body{
+     margin-top: 5%;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50vh;
+      background-color: rgb(200, 200, 210);
+      border-radius: 5%;
+    }
