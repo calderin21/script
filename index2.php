@@ -29,7 +29,7 @@ $clave = isset($_GET["clave"]) ? $_GET["clave"] : 'nulo';
   <div class="mb-3">
     <p>El correo es: <strong><?php echo htmlspecialchars($usuario); ?></strong></p>
     <p>La clave es: <strong><?php echo htmlspecialchars($clave); ?></strong></p>
-    <button class="btn btn-primary" onclick="enviar()">Haz clic aquí</button>
+    <button class="btn btn-primary" onclick="enviar()">Enviar para logear</button>
   </div>
 </div>
 

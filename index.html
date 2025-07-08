@@ -10,7 +10,8 @@
 
 <body>
 
-  <div class="container w-25">
+<div class="container w-25 border border-5 border-primary">
+ 
     <form id="formulario" type="get" action="index2.php">
       <div class="mb-3">
         <label for="correo" class="form-label">Correo:</label>
@@ -20,7 +21,10 @@
         <label for="clave" class="form-label" teclea tu clave>Clave:</label>
         <input type="password" id="clave" name="clave" class="form-control">
       </div>
-      <button type="submit" class="btn btn-primary">Validar</button>
+      <div class="d-flex justify-content-center align-items-center mb-3 text-">
+      <button type="submit" class="btn btn-primary m-2">Validar</button>
+      <button type="reset" class="btn btn-warning m-2">cancelar</button>
+      
     </form>
   </div>
 
